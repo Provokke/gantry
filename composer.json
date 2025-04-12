@@ -1,0 +1,17 @@
+{
+    "name": "provokke/gantry",
+    "description": "A small HTTP router and middleware pipeline for PHP 8.2+",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gantry\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
