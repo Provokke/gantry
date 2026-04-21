@@ -109,3 +109,4 @@ $check('redirect', '/login', Response::redirect('/login')->headers['Location']);
 
 printf("%d checks, %d failed\n", $count, $failures);
 exit($failures === 0 ? 0 : 1);
+
