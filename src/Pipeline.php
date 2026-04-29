@@ -16,3 +16,4 @@ final class Pipeline
         return $next($request);
     }
 }
+
